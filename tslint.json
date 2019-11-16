@@ -1,0 +1,14 @@
+{
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "prettier": true,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "import-name": false,
+    "no-boolean-literal-compare": false,
+    "no-conditional-assignment": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": [false]
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"]
+}
